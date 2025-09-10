@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --clr-blue: #1A91F0;
+    --clr-blue-mid: #1170CD;
+    --clr-blue-dark: #1A1C6A;
+    --clr-white: #fff;
+    --clr-bright: #EFF2F9;
+    --clr-dark: #1e2532;
+    --clr-peach: #fdeffd;
+    --clr-black: #000;
+    --clr-grey: #f2f4f4;
+    --clr-maroon: #934848;
+    --clr-pink: #c34c8c;
+    --clr-pacific-pearl: #e8eae6;
+    --clr-light-grey: #fbfcfa;
+    --clr-green: #084C41;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-manrope: 'Manrope', sans-serif;;
+    --transition: all 300ms ease-in-out;
+    --clr-text: #585874;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /**box-sizing: border-box;**/
+    font-family: var(--font-poppins)
+}
+
+html{
+    font-size: 10px;
+    height: 100%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #FFE6FF;
+    height: 100%;
+    font-family: var(--font-poppins)
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* fonts */
+.font-poppins{font-family: var(--font-poppins);}
+.font-manrope{font-family: var(--font-manrope);}
+
+/* text colors */
+.text-blue{color: var(--clr-blue);}
+.text-black{color: var(--clr-black);}
+.text-blue-mid{color: var(--clr-blue-mid);}
+.text-blue-dark{color: var(--clr-blue-dark);}
+.text-bright{color: var(--clr-bright);}
+.text-dark{color: var(--clr-dark);}
+.text-grey{color: var(--clr-grey);}
+.text-white{color: var(--clr-white);}
+.text-pink{color: var(--clr-pink);}
+.text-text{color: var(--clr-text);}
+
+/* backgrounds */
+.bg-blue{background-color: var(--clr-blue);}
+.bg-blue-mid{background-color: var(--clr-blue-mid);}
+.bg-blue-dark{background-color: var(--clr-blue-dark);}
+.bg-bright{background-color: var(--clr-bright);}
+.bg-dark{background-color: var(--clr-dark);}
+.bg-peach{background-color: var(--clr-peach);}
+.bg-grey{background-color: var(--clr-grey);}
+.bg-light-grey{background-color: var(--clr-light-grey);}
+.bg-white{background-color: var(--clr-white);}
+.bg-black{background-color: var(--clr-black);}
+.bg-green{background-color: var(--clr-green);}
+.bg-maroon{background-color: var(--clr-maroon);}
+
+
+
+.text-center{ text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-uppercase{text-transform: uppercase;}
+.text-lowercase{text-transform: lowercase;}
+.text-capitalize{text-transform: capitalize;}
+.text{
+    color: var(--clr-dark);
+    opacity: 0.9;
+    margin: 2rem 0;
+    line-height: 1.6;
+}
+
+.fw-2{font-weight: 200;}
+.fw-3{font-weight: 300;}
+.fw-4{font-weight: 400;}
+.fw-5{font-weight: 500;}
+.fw-6{font-weight: 600;}
+.fw-7{font-weight: 700;}
+.fw-8{font-weight: 800;}
+
+.fs-13{font-size: 13px;}
+.fs-14{font-size: 14px;}
+.fs-15{font-size: 15px;}
+.fs-16{font-size: 16px;}
+.fs-17{font-size: 17px;}
+.fs-18{font-size: 18px;}
+.fs-19{font-size: 19px;}
+.fs-20{font-size: 20px;}
+.fs-21{font-size: 21px;}
+.fs-22{font-size: 22px;}
+.fs-23{font-size: 23px;}
+.fs-24{font-size: 24px;}
+.fs-25{font-size: 25px;}
+
+.ls-1{letter-spacing: 1px;}
+.ls-2{letter-spacing: 2px;}
+
+
+
+.header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FDEFFD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo image and text */
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust logo size */
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .navbar-brand-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; /* Adjust text size */
+    font-weight: bold;
+    color: #7a486e;
+  }
+  
+  .navbar-brand-text span {
+    color: #1170CD; /* Highlighted color for "Revolution" */
+  }
+
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  gap: 30px;
+}
+
+.profile-left {
+  width: 35%;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.profile-right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.profile-role {
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.profile-role-input {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+}
+
+.profile-role-input:focus {
+  outline: none;
+  border-color: var(--clr-blue);
+  box-shadow: 0 0 5px var(--clr-blue);
+}
+
+
+
+.logout-button {
+  background-color: #1A91F0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+  width: fit-content;
+}
+
+.logout-button:hover {
+  background-color: #1170CD;
+}
+
+
+/* Profile image upload with circular + button */
+.profile-pic-wrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1170CD;
+}
+
+.upload-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #1A91F0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.upload-icon:hover {
+  background-color: #1170CD;
+}
+
+#profile-upload {
+  display: none;
+}
+
+.profile-divider {
+  width: 40%;
+  height: 2px;
+  background-color: #1170CD;
+  margin: 8px auto;
+  margin-bottom: 25px;
+  border-radius: 1px;
+}
