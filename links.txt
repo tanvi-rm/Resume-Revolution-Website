@@ -1,0 +1,6 @@
+http://localhost/Javascript/signup.php
+http://localhost/Javascript/templates.php
+http://localhost/Javascript/signin.php
+http://localhost/Javascript/help.php
+http://localhost/Javascript/homepage.php
+http://localhost/Javascript/profile.php
